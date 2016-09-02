@@ -1,6 +1,8 @@
 # NlbCompatModule
 Transparent SSL Offloading support for IIS applications made with a custom HTTP Module implementing the following behavior OnBeginRequest.
 
+[![Build status](https://ci.appveyor.com/api/projects/status/6n1d8l7njs03f1rc/branch/master?svg=true)](https://ci.appveyor.com/project/ogaudefroy/nlbcompatmodule/branch/master)
+
 Fix HttpContext server variables with X-FORWARDED-PROTO header:
  - Set HTTPS to on or off.
  - Set SERVER_PORT to 443 or 80
