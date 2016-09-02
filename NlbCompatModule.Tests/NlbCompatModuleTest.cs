@@ -18,7 +18,7 @@
         }
 
         [Test]
-        public void ForwardedForHeader_SetsRemoteAddr([Values("192.168.0.1", "192.168.0.1,10.70.30.54")]string value)
+        public void ForwardedForHeader_SetsRemoteAddr([Values("192.168.0.1", "10.70.30.54,192.168.0.1")]string value)
         {
             var module = new NlbCompatModule();
             var httpContext = this.CreateHttpContextBase();
