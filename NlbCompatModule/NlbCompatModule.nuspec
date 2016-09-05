@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package>
+  <metadata minClientVersion="2.7">
+    <id>$id$</id>
+    <version>$version$</version>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <projectUrl>https://github.com/ogaudefroy/NlbCompatModule</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Transparent SSL Offloading support for IIS applications made with a custom HTTP Module.</description>
+    <releaseNotes></releaseNotes>
+    <copyright>$copyright$</copyright>
+  </metadata>
+  <files>
+    <file src="content\**\*" target="content" />
+  </files>
+</package>
